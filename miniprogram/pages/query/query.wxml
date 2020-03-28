@@ -1,0 +1,11 @@
+<!--miniprogram/pages/query/query.wxml-->
+<view class="title">NBCC垃圾分类速查手册</view>
+
+<view>
+  <view>
+    <van-field placeholder="请输入物品名称" />
+  </view>
+  <view class="button">
+    <van-button round type="info">开始查询</van-button>
+  </view>
+</view>

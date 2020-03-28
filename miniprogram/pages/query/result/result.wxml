@@ -1,0 +1,18 @@
+<!--miniprogram/pages/query/result/result.wxml-->
+
+<view class="title" hover-class="none" hover-stop-propagation="false">
+  酸奶盒 是
+</view>
+
+<view class="card">
+  <view class="image">
+    <van-image width="6rem" height="8rem" src="/images/qi_ta_la_ji_tong.png" />
+  </view>
+  <view>
+    <view class="cate">其他垃圾</view>
+    <text>其他垃圾包括卫生纸、烟蒂、干燥剂、橡皮泥、动物大骨等。</text>
+  </view>
+</view>
+<view class="return">
+  <van-button round type="default" custom-style="border: 3px solid black; border-radius:5px;font-size:1.2rem;">返回继续查询</van-button>
+</view>
